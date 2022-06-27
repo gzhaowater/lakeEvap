@@ -1,4 +1,4 @@
-## This script generates annual water areas for the lakes in the HydroLAKES dataset
+## This script generates monthly meteorological forcings for the lakes in the HydroLAKES dataset
 ## by: Gang Zhao
 ## 02/01/2020
 
