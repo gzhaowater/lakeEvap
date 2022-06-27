@@ -1,3 +1,7 @@
+## This script calculates evaporation rate for lakes
+## by: Gang Zhao
+## 04/01/2020
+
 from math import log, exp, sqrt, pow
 from math import sin, cos, tan, atan
 from math import pi, acos
