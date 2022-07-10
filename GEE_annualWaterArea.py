@@ -33,7 +33,7 @@ def extract_lake(lake):
     return area_ts
 
 jrc_yr = ee.ImageCollection("JRC/GSW1_3/YearlyHistory")
-lakes = ee.FeatureCollection("users/ee_zhao/Dryland_water/HydroLAKES_v10_voro_buffer_area1")
+lakes = ee.FeatureCollection("users/ee_zhao/HydroLAKES_v10_voro_buffer_area1")
 
 ## run the first 1000 lakes from HydroLAKES dataset
 for i in range(0, 1000, 1):
