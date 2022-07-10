@@ -21,7 +21,7 @@ def extract_area(lake):
 
 jrc_mrc = ee.ImageCollection("JRC/GSW1_3/MonthlyRecurrence")
 
-lakes = ee.FeatureCollection("users/ee_zhao/Dryland_water/HydroLAKES_v10_voro_buffer_area1")
+lakes = ee.FeatureCollection("users/ee_zhao/HydroLAKES_v10_voro_buffer_area1")
 
 ## group the lakes by groups, each group has 100 lakes
 group = ee.Number(100)
