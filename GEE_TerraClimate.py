@@ -18,7 +18,7 @@ teclim = ee.ImageCollection("IDAHO_EPSCOR/TERRACLIMATE") \
                 .select(['srad','tmmn','tmmx','vpd', 'vs']) \
                 .filterDate('1984-1-1','2022-1-1')
 
-lakes = ee.FeatureCollection("users/ee_zhao/Dryland_water/HydroLAKES_v10_voro_buffer_area1")
+lakes = ee.FeatureCollection("users/ee_zhao/HydroLAKES_v10_voro_buffer_area1")
 
 ## run the first 1000 lakes from HydroLAKES dataset
 for i in range(0, 1000, 1):
